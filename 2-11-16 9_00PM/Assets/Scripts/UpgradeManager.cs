@@ -55,9 +55,9 @@ public class UpgradeManager : MonoBehaviour {
         {
             data.setRadPoints(data.getRadPoints() - cost); //spends your points
             this.count++;
-            other.clickPower += clickPower;
-            //data.setPointsPerClick(data.getPointsPerClick() + clickPower); // adds the power to the total points/click
-            this.cost = Mathf.Round(this.baseCost * Mathf.Pow(1.15f, this.count)); // cost increases by 15% each time you purchase it, rounds cost to nearest int
+            other.clickPower = clickPower;
+            this.clickPower = (int)(clickPower * 1.5);
+            this.cost = Mathf.Round(this.baseCost * Mathf.Pow(11.5f, this.count)); // cost increases by 15% each time you purchase it, rounds cost to nearest int
         }
         
     }
