@@ -3195,6 +3195,7 @@ GameObject:
   - 224: {fileID: 736573177}
   - 222: {fileID: 736573176}
   - 114: {fileID: 736573175}
+  - 114: {fileID: 736573178}
   m_Layer: 5
   m_Name: MainPointsClick
   m_TagString: Untagged
@@ -3258,6 +3259,31 @@ RectTransform:
   m_AnchoredPosition: {x: -1.7438354, y: -178.7466}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &736573178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 736573174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8843f3202f3f43540b3ba36e4c669f1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radPerClick: {fileID: 0}
+  radPointDisplay: {fileID: 0}
+  radPoints: 0
+  radPointsPerClick: 0
+  items:
+  - {fileID: 834315616}
+  - {fileID: 1704967692}
+  - {fileID: 1562922894}
+  - {fileID: 783637047}
+  - {fileID: 1479627655}
+  - {fileID: 302483474}
+  - {fileID: 504141751}
+  - {fileID: 1328753195}
+  - {fileID: 1934018124}
 --- !u!1 &742275655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3309,6 +3335,7 @@ MonoBehaviour:
   radPointDisplay: {fileID: 865243472}
   radPoints: 0
   radPointsPerClick: 1
+  items: []
 --- !u!114 &742275658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6242,6 +6269,7 @@ MonoBehaviour:
   radPointDisplay: {fileID: 1587070434}
   radPoints: 0
   radPointsPerClick: 1
+  items: []
 --- !u!114 &1401086572
 MonoBehaviour:
   m_ObjectHideFlags: 0

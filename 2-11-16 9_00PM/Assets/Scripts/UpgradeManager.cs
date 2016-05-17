@@ -28,9 +28,10 @@ public class UpgradeManager : MonoBehaviour {
     {
         itemInfo.text = itemName + "\nCost: " + cost + "\nPower: " + clickPower + "\nCount: " + count; // updates the text on the button to show current name, cost, power
     }
-    public void ClickPower()
+    public void ClickPower(int num,int power)
     {
-        data.setPointsPerClick(data.getPointsPerClick() + (count * clickPower));
+
+        data.setPointsPerClick(data.getPointsPerClick() + (num * power));
     }
     
     /// <summary>
@@ -51,14 +52,18 @@ public class UpgradeManager : MonoBehaviour {
     /// </summary>
     public void UpgradePowerValue(UpgradeManager other)
     {
+        int num = 0;
         if (data.getRadPoints() >= cost) // checks to see if you have enough points to buy it
         {
+            num = data.getPointsPerClick() - (other.count * other.clickPower);
+            data.setPointsPerClick(num);
             data.setRadPoints(data.getRadPoints() - cost); //spends your points
             this.count++;
             other.clickPower = clickPower;
             this.clickPower = (int)(clickPower * 1.5);
             this.cost = Mathf.Round(this.baseCost * Mathf.Pow(11.5f, this.count)); // cost increases by 15% each time you purchase it, rounds cost to nearest int
+            ClickPower(other.count,other.clickPower);
         }
-        
+
     }
 }

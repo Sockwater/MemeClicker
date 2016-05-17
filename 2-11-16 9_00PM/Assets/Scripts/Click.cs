@@ -8,6 +8,7 @@ public class Click : MonoBehaviour {
     public UnityEngine.UI.Text radPointDisplay; // Text showing how many points you have
     public float radPoints; // the amount of points you have
     public int radPointsPerClick = 1; // the amount of points you get per click
+    public UpgradeManager[] items;
     
     void Start()
     {
@@ -25,10 +26,8 @@ public class Click : MonoBehaviour {
     {
         radPoints = data.getRadPoints();
         radPointsPerClick = data.getPointsPerClick();
-        radPointDisplay.text = "Rad Points: " + radPoints.ToString("F1"); // makes the radPointDisplay show the new amount of points
+        radPointDisplay.text = "Rad Points: " + data.getRadPoints().ToString("F1"); // makes the radPointDisplay show the new amount of points
         radPerClick.text = radPointsPerClick + "RP/click"; //makes the radPerClick show the new amount of points per click
-
-
     }
     /// <summary>
     /// runs whenever the button is clicked
@@ -38,5 +37,15 @@ public class Click : MonoBehaviour {
         radPoints += radPointsPerClick; //adds the amounbt of points/click to your total points
         data.setPointsPerClick(radPointsPerClick);
         data.setRadPoints(radPoints);
+    }
+
+    public int UpdateClickPower()
+    {
+        int num = 0;
+        foreach (UpgradeManager item in items)
+        {
+            num += (item.clickPower * item.count);
+        }
+        return num;
     }
 }
