@@ -1638,7 +1638,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 3
+  m_Text: Meme Dog
 --- !u!222 &513807193
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3565,7 +3565,7 @@ MonoBehaviour:
   cost: 2500
   count: 0
   clickPower: 25
-  itemName: Meme 4
+  itemName: Meme Frog
 --- !u!114 &783637048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4013,7 +4013,7 @@ GameObject:
   - 114: {fileID: 834315613}
   - 114: {fileID: 834315616}
   m_Layer: 5
-  m_Name: memeBearButton
+  m_Name: memeFaceButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4137,7 +4137,7 @@ MonoBehaviour:
   cost: 10
   count: 0
   clickPower: 1
-  itemName: Meme Bear
+  itemName: Meme Face
 --- !u!1 &865243470
 GameObject:
   m_ObjectHideFlags: 0
@@ -4709,7 +4709,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 4
+  m_Text: Meme Frog
 --- !u!222 &1010487244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4867,7 +4867,7 @@ GameObject:
   - 114: {fileID: 1049886083}
   - 114: {fileID: 1049886082}
   m_Layer: 5
-  m_Name: UmemeBearButton
+  m_Name: UmemeFaceButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5719,7 +5719,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 9
+  m_Text: Dat Memeboi
 --- !u!222 &1314634057
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5778,7 +5778,7 @@ MonoBehaviour:
   cost: 100000
   count: 0
   clickPower: 750
-  itemName: Meme 8
+  itemName: Queen Meme II
 --- !u!114 &1328753196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6384,7 +6384,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 3
+  m_Text: Meme Dog
 --- !u!222 &1405120067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6457,7 +6457,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 8
+  m_Text: Queen Meme II
 --- !u!222 &1417981181
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8000,7 +8000,7 @@ MonoBehaviour:
   cost: 1000
   count: 0
   clickPower: 10
-  itemName: Meme 3
+  itemName: Meme Dog
 --- !u!1 &1587070433
 GameObject:
   m_ObjectHideFlags: 0
@@ -9155,7 +9155,7 @@ MonoBehaviour:
   cost: 500000
   count: 0
   clickPower: 1500
-  itemName: Meme 9
+  itemName: Dat Memeboi
 --- !u!114 &1934018125
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9721,7 +9721,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme Bear
+  m_Text: Meme Face
 --- !u!222 &2042608061
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9739,7 +9739,7 @@ GameObject:
   - 222: {fileID: 2052383037}
   - 114: {fileID: 2052383036}
   m_Layer: 5
-  m_Name: memeBearText
+  m_Name: memeFaceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
