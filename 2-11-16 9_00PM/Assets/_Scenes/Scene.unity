@@ -196,7 +196,7 @@ GameObject:
   - 222: {fileID: 14423353}
   - 114: {fileID: 14423352}
   m_Layer: 5
-  m_Name: meme4Text
+  m_Name: memeFrogText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 4
+  m_Text: Meme Frog
 --- !u!222 &14423353
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1025,7 +1025,7 @@ GameObject:
   - 114: {fileID: 302483475}
   - 114: {fileID: 302483474}
   m_Layer: 5
-  m_Name: memeButton6
+  m_Name: memeGnomeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   cost: 15000
   count: 0
   clickPower: 100
-  itemName: Meme 6
+  itemName: Meme Gnome
 --- !u!114 &302483475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1447,7 @@ GameObject:
   - 114: {fileID: 504141752}
   - 114: {fileID: 504141751}
   m_Layer: 5
-  m_Name: memeButton7
+  m_Name: politicalMemeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1486,7 +1486,7 @@ MonoBehaviour:
   cost: 50000
   count: 0
   clickPower: 250
-  itemName: Meme 7
+  itemName: Political Meme
 --- !u!114 &504141752
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,7 +1583,7 @@ GameObject:
   - 222: {fileID: 513807193}
   - 114: {fileID: 513807192}
   m_Layer: 5
-  m_Name: meme3Text
+  m_Name: memeDogText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2078,7 +2078,7 @@ GameObject:
   - 222: {fileID: 578476355}
   - 114: {fileID: 578476354}
   m_Layer: 5
-  m_Name: meme5Text
+  m_Name: spoderMemeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 5
+  m_Text: Spodermeme
 --- !u!222 &578476355
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2435,7 +2435,7 @@ GameObject:
   - 222: {fileID: 665221001}
   - 114: {fileID: 665221000}
   m_Layer: 5
-  m_Name: meme9Text
+  m_Name: datMemeboiText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2490,7 +2490,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 9
+  m_Text: Dat Memeboi
 --- !u!222 &665221001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2608,7 +2608,7 @@ GameObject:
   - 222: {fileID: 670015819}
   - 114: {fileID: 670015818}
   m_Layer: 5
-  m_Name: meme8Text
+  m_Name: queenMemeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2663,7 +2663,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 8
+  m_Text: Queen Meme II
 --- !u!222 &670015819
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2860,7 +2860,7 @@ MonoBehaviour:
   cost: 100
   count: 0
   clickPower: 10
-  itemName: Meme Roll
+  itemName: Meme Roll Power Up
 --- !u!114 &693985474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3526,7 +3526,7 @@ GameObject:
   - 114: {fileID: 783637048}
   - 114: {fileID: 783637047}
   m_Layer: 5
-  m_Name: memeButton4
+  m_Name: memeFrogButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3703,7 +3703,7 @@ MonoBehaviour:
   cost: 7500
   count: 0
   clickPower: 75
-  itemName: Meme 5
+  itemName: Spodermeme
 --- !u!114 &784959672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3875,7 +3875,7 @@ GameObject:
   - 114: {fileID: 833538224}
   - 114: {fileID: 833538223}
   m_Layer: 5
-  m_Name: UmemeButton3
+  m_Name: UmemeDogButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3914,7 +3914,7 @@ MonoBehaviour:
   cost: 1000
   count: 0
   clickPower: 15
-  itemName: Meme 3
+  itemName: Meme Frog Power Up
 --- !u!114 &833538224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4654,7 +4654,7 @@ GameObject:
   - 222: {fileID: 1010487244}
   - 114: {fileID: 1010487243}
   m_Layer: 5
-  m_Name: meme4Text
+  m_Name: memeFrogText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4906,7 +4906,7 @@ MonoBehaviour:
   cost: 10
   count: 0
   clickPower: 2
-  itemName: Meme Bear Power Up
+  itemName: Meme Face Power Up
 --- !u!114 &1049886083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5169,7 +5169,7 @@ GameObject:
   - 222: {fileID: 1144226016}
   - 114: {fileID: 1144226015}
   m_Layer: 5
-  m_Name: meme6Text
+  m_Name: memeGnomeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5224,7 +5224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 6
+  m_Text: Meme Gnome
 --- !u!222 &1144226016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5471,10 +5471,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1704967688}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100, y: -50}
+  m_SizeDelta: {x: 200, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1187373553
 MonoBehaviour:
@@ -5739,7 +5739,7 @@ GameObject:
   - 114: {fileID: 1328753196}
   - 114: {fileID: 1328753195}
   m_Layer: 5
-  m_Name: memeButton8
+  m_Name: queenMemeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6329,7 +6329,7 @@ GameObject:
   - 222: {fileID: 1405120067}
   - 114: {fileID: 1405120066}
   m_Layer: 5
-  m_Name: meme3Text
+  m_Name: memeDogText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6752,7 +6752,7 @@ GameObject:
   - 114: {fileID: 1479627656}
   - 114: {fileID: 1479627655}
   m_Layer: 5
-  m_Name: memeButton5
+  m_Name: spoderMemeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6791,7 +6791,7 @@ MonoBehaviour:
   cost: 7500
   count: 0
   clickPower: 50
-  itemName: Meme 5
+  itemName: Spodermeme
 --- !u!114 &1479627656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6943,7 +6943,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 5
+  m_Text: Spodermeme
 --- !u!222 &1494926861
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7452,7 +7452,7 @@ GameObject:
   - 222: {fileID: 1530752529}
   - 114: {fileID: 1530752528}
   m_Layer: 5
-  m_Name: meme7Text
+  m_Name: politicalMemeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7507,7 +7507,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme 7
+  m_Text: Political Meme
 --- !u!222 &1530752529
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7600,7 +7600,7 @@ GameObject:
   - 114: {fileID: 1550174547}
   - 114: {fileID: 1550174546}
   m_Layer: 5
-  m_Name: UmemeButton4
+  m_Name: UmemeFrogButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7639,7 +7639,7 @@ MonoBehaviour:
   cost: 2500
   count: 0
   clickPower: 40
-  itemName: Meme 4
+  itemName: Meme Frog Power Up
 --- !u!114 &1550174547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7876,7 +7876,7 @@ GameObject:
   - 114: {fileID: 1562922890}
   - 114: {fileID: 1562922894}
   m_Layer: 5
-  m_Name: memeButton3
+  m_Name: memeDogButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9116,7 +9116,7 @@ GameObject:
   - 114: {fileID: 1934018125}
   - 114: {fileID: 1934018124}
   m_Layer: 5
-  m_Name: memeButton9
+  m_Name: datMemeboiButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9666,7 +9666,7 @@ GameObject:
   - 222: {fileID: 2042608061}
   - 114: {fileID: 2042608060}
   m_Layer: 5
-  m_Name: memeBearText
+  m_Name: memeFaceText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9794,7 +9794,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Meme Bear
+  m_Text: Meme Face
 --- !u!222 &2052383037
 CanvasRenderer:
   m_ObjectHideFlags: 0
