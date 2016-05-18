@@ -3,8 +3,8 @@ using System.Collections;
 
 public class ChangeCanvas : MonoBehaviour {
 
-    public Camera camera;
-    
+    public new Camera camera;
+
 
     public void UpgradeCanvas()
     {

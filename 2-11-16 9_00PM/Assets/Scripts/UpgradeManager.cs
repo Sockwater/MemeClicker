@@ -10,7 +10,7 @@ public class UpgradeManager : MonoBehaviour {
     public int clickPower; // how many points/click this item adds
     public string itemName; //name of the item
     private float baseCost; //base cost of the item
-
+    public PointConverter converter;
     /// <summary>
     /// runs at the beginning of the game
     /// </summary>
@@ -18,7 +18,6 @@ public class UpgradeManager : MonoBehaviour {
     {
         baseCost = cost;//sets the base cost to whatever we assigned it to in unity
         data = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<DataCollector>();
-
     }
 
     /// <summary>
@@ -26,7 +25,8 @@ public class UpgradeManager : MonoBehaviour {
     /// </summary>
     void Update()
     {
-        itemInfo.text = itemName + "\nCost: " + cost + "\nPower: " + clickPower + "\nCount: " + count; // updates the text on the button to show current name, cost, power
+        converter = new PointConverter(cost);
+        itemInfo.text = itemName + "\nCost: " + converter + "\nPower: " + clickPower + "\nCount: " + count; // updates the text on the button to show current name, cost, power
     }
     public void ClickPower(int num,int power)
     {

@@ -925,7 +925,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1314634056}
   cost: 500000
   count: 0
-  clickPower: 1500
+  clickPower: 2250
   itemName: Meme 9
 --- !u!114 &273780011
 MonoBehaviour:
@@ -1274,7 +1274,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1526268696}
   cost: 15000
   count: 0
-  clickPower: 100
+  clickPower: 150
   itemName: Meme 6
 --- !u!114 &357477939
 MonoBehaviour:
@@ -1315,7 +1315,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 357477938}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:
@@ -2264,7 +2264,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1417981180}
   cost: 100000
   count: 0
-  clickPower: 750
+  clickPower: 1000
   itemName: Meme 8
 --- !u!114 &617445050
 MonoBehaviour:
@@ -2305,7 +2305,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 617445049}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:
@@ -2859,7 +2859,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1535122904}
   cost: 100
   count: 0
-  clickPower: 5
+  clickPower: 10
   itemName: Meme Roll
 --- !u!114 &693985474
 MonoBehaviour:
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 693985473}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:
@@ -2997,7 +2997,7 @@ MonoBehaviour:
   itemInfo: {fileID: 936344291}
   cost: 50000
   count: 0
-  clickPower: 250
+  clickPower: 350
   itemName: Meme 7
 --- !u!114 &728467968
 MonoBehaviour:
@@ -3038,7 +3038,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 728467967}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:
@@ -3195,7 +3195,6 @@ GameObject:
   - 224: {fileID: 736573177}
   - 222: {fileID: 736573176}
   - 114: {fileID: 736573175}
-  - 114: {fileID: 736573178}
   m_Layer: 5
   m_Name: MainPointsClick
   m_TagString: Untagged
@@ -3259,31 +3258,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.7438354, y: -178.7466}
   m_SizeDelta: {x: 160, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &736573178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 736573174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8843f3202f3f43540b3ba36e4c669f1f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radPerClick: {fileID: 0}
-  radPointDisplay: {fileID: 0}
-  radPoints: 0
-  radPointsPerClick: 0
-  items:
-  - {fileID: 834315616}
-  - {fileID: 1704967692}
-  - {fileID: 1562922894}
-  - {fileID: 783637047}
-  - {fileID: 1479627655}
-  - {fileID: 302483474}
-  - {fileID: 504141751}
-  - {fileID: 1328753195}
-  - {fileID: 1934018124}
 --- !u!1 &742275655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3335,7 +3309,6 @@ MonoBehaviour:
   radPointDisplay: {fileID: 865243472}
   radPoints: 0
   radPointsPerClick: 1
-  items: []
 --- !u!114 &742275658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,7 +3702,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1494926860}
   cost: 7500
   count: 0
-  clickPower: 50
+  clickPower: 75
   itemName: Meme 5
 --- !u!114 &784959672
 MonoBehaviour:
@@ -3770,7 +3743,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 784959671}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:
@@ -3940,7 +3913,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1405120066}
   cost: 1000
   count: 0
-  clickPower: 10
+  clickPower: 15
   itemName: Meme 3
 --- !u!114 &833538224
 MonoBehaviour:
@@ -3981,7 +3954,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 833538223}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:
@@ -6269,7 +6242,6 @@ MonoBehaviour:
   radPointDisplay: {fileID: 1587070434}
   radPoints: 0
   radPointsPerClick: 1
-  items: []
 --- !u!114 &1401086572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7666,7 +7638,7 @@ MonoBehaviour:
   itemInfo: {fileID: 1010487243}
   cost: 2500
   count: 0
-  clickPower: 25
+  clickPower: 40
   itemName: Meme 4
 --- !u!114 &1550174547
 MonoBehaviour:
@@ -7707,7 +7679,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 273780010}
+      - m_Target: {fileID: 1550174546}
         m_MethodName: UpgradePowerValue
         m_Mode: 2
         m_Arguments:

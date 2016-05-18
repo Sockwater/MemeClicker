@@ -10,7 +10,7 @@ public class ItemManager : MonoBehaviour {
     public int count; // how many of this item you own
     public string itemName; // name of item
     private float baseCost; // base cost of item
-
+    public PointConverter converter;
     /// <summary>
     /// runs at start of game
     /// </summary>
@@ -18,6 +18,7 @@ public class ItemManager : MonoBehaviour {
     {
         data = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<DataCollector>();
         baseCost = cost; // sets the baseCost to the cost we defined in Unity
+        
     }
 
     /// <summary>
@@ -25,7 +26,8 @@ public class ItemManager : MonoBehaviour {
     /// </summary>
     void Update()
     {
-        itemInfo.text = itemName + "\nCost: " + cost + "\n" + tickValue + " RP/s\nCount: " + count; //ItemInfo shows name,cost,and points/second
+        converter = new PointConverter(cost);
+        itemInfo.text = itemName + "\nCost: " + converter + "\n" + tickValue + " RP/s\nCount: " + count; //ItemInfo shows name,cost,and points/second
     }
 
     /// <summary>
