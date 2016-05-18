@@ -44,4 +44,21 @@ public class ItemManager : MonoBehaviour {
         }
     }
 
+    public void UpgradePowerValue(ItemManager other)
+    {
+        float num = 0;
+        if (data.getRadPoints() >= cost) // checks to see if you have enough points to buy it
+        {
+            num = data.getPointPerSec() - (other.count * other.tickValue);
+            data.setPointsPerSec(num);
+            data.setRadPoints(data.getRadPoints() - cost); //spends your points
+            this.count++;
+            other.tickValue *= 2;
+            this.tickValue = other.tickValue * 2;
+            this.cost = Mathf.Round(this.baseCost * Mathf.Pow(11.5f, this.count)); // cost increases by 15% each time you purchase it, rounds cost to nearest int
+            data.setPointsPerSec(data.getPointPerSec() + (other.count * other.tickValue));
+        }
+
+    }
+
 }
