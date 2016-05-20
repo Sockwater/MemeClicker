@@ -27,7 +27,7 @@ public class ItemManager : MonoBehaviour {
     void Update()
     {
         converter = new PointConverter(cost);
-        itemInfo.text = itemName + "\nCost: " + converter + "\n" + tickValue + " RP/s\nCount: " + count; //ItemInfo shows name,cost,and points/second
+        itemInfo.text = itemName + "\nCost: " + converter.convert() + "\n" + tickValue + " RP/s\nCount: " + count; //ItemInfo shows name,cost,and points/second
     }
 
     /// <summary>

@@ -1905,7 +1905,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 1148594908}
-  cost: 1000
+  cost: 100000
   tickValue: 25
   count: 0
   itemName: Eighth Item
@@ -8492,7 +8492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 981239379}
-  cost: 10000
+  cost: 50000
   tickValue: 50
   count: 0
   itemName: Seventh Item
@@ -10023,7 +10023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 1529350966}
-  cost: 25000
+  cost: 1000000
   tickValue: 100
   count: 0
   itemName: Ninth Item

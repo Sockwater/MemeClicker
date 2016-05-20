@@ -26,7 +26,7 @@ public class UpgradeManager : MonoBehaviour {
     void Update()
     {
         converter = new PointConverter(cost);
-        itemInfo.text = itemName + "\nCost: " + converter + "\nPower: " + clickPower + "\nCount: " + count; // updates the text on the button to show current name, cost, power
+        itemInfo.text = itemName + "\nCost: " + converter.convert() + "\nPower: " + clickPower + "\nCount: " + count; // updates the text on the button to show current name, cost, power
     }
     public void ClickPower(int num,int power)
     {

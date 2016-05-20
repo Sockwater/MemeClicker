@@ -4,21 +4,22 @@ using System.Collections;
 public class PointConverter
 {
 
-    private string conversion;
+    float num;
 
     public PointConverter(float pointsToConvert)
     {
-        if (pointsToConvert >= 10000) conversion = (pointsToConvert / 1000f).ToString("0.0## thousand");
-        else if (pointsToConvert >= 100000) conversion = (pointsToConvert / 10000f).ToString("0.0# thousand");
-        else if (pointsToConvert >= 1000000) conversion = (pointsToConvert / 100000f).ToString("0.0## million");
-        else if (pointsToConvert >= 10000000) conversion = (pointsToConvert / 1000000f).ToString("0.0# million");
-        else if (pointsToConvert >= 100000000) conversion = (pointsToConvert / 10000000f).ToString("0.0## billion");
-        else if (pointsToConvert >= 1000000000) conversion = (pointsToConvert / 100000000f).ToString("0.0# billion");
-        else conversion = pointsToConvert.ToString("#,0.0");
+        num = pointsToConvert;
     }
 
-    public override string ToString()
+    public string convert()
     {
-        return conversion;
+        if (num > 999999999) return (num / 1000000000f).ToString("########### beyond millions");
+        if (num >= 1000000000) return (num / 100000000f).ToString("######### billion");
+        if (num >= 100000000) return (num / 10000000f).ToString("######### million");
+        if (num >= 10000000) return (num / 1000000f).ToString("######### million");
+        if (num >= 1000000) return (num / 100000f).ToString("######### million");
+        if (num >= 100000) return (num / 10000f).ToString("########## thousand");
+        if (num >= 10000) return (num / 1000f).ToString("######### thousand");
+        return num.ToString("#,0.0");
     }
 }
