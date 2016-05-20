@@ -3,12 +3,12 @@ using System.Collections;
 
 public class DataCollector : MonoBehaviour {
     [SerializeField]
-    private float radPoints = 0;
-    public float getRadPoints()
+    private double radPoints = 0;
+    public double getRadPoints()
     {
         return this.radPoints;
     }
-    public void setRadPoints(float rad)
+    public void setRadPoints(double rad)
     {
         this.radPoints = rad;
     }
@@ -35,13 +35,13 @@ public class DataCollector : MonoBehaviour {
     }
     [SerializeField]
 
-    private float pointsPerSec = 0;
+    private double pointsPerSec = 0;
 
-    public float getPointPerSec()
+    public double getPointPerSec()
     {
         return this.pointsPerSec;
     }
-    public void setPointsPerSec(float points)
+    public void setPointsPerSec(double points)
     {
         this.pointsPerSec = points;
     }

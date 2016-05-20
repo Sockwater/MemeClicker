@@ -33,9 +33,9 @@ public class PointsPerSec : MonoBehaviour {
     /// Gets the amount of points/second
     /// </summary>
     /// <returns> tick </returns>
-    public float GetPointsPerSec()
+    public double GetPointsPerSec()
     {
-        float tick = 0;//data.getPointPerSec(); //points/second
+        double tick = 0;//data.getPointPerSec(); //points/second
         foreach (ItemManager item in items)
         {
             if (item.count > 0) tick += item.count * item.tickValue; //adds the points/second value for each item you own.
@@ -51,7 +51,7 @@ public class PointsPerSec : MonoBehaviour {
     public void AutoPointsPerSec()
     {
         // click.radPoints += GetPointsPerSec() / 10;
-            data.setRadPoints(data.getRadPoints() + (data.getPointPerSec()/10));
+            data.setRadPoints(data.getRadPoints() + (data.getPointPerSec()/17.6));
     }
 
     /// <summary>
