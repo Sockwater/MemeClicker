@@ -27,7 +27,7 @@ public class ItemManager : MonoBehaviour {
     void Update()
     {
         converter = new PointConverter(cost);
-        itemInfo.text = itemName + "\nCost: " + converter.convert() + "\n" + tickValue + " RP/s\nCount: " + count; //ItemInfo shows name,cost,and points/second
+        itemInfo.text = itemName + "\nCost: " + converter + "\n" + tickValue + " RP/s\nCount: " + count; //ItemInfo shows name,cost,and points/second
     }
 
     /// <summary>
@@ -53,8 +53,8 @@ public class ItemManager : MonoBehaviour {
             data.setPointsPerSec(num);
             data.setRadPoints(data.getRadPoints() - cost); //spends your points
             this.count++;
-            other.tickValue *= 5;
-            this.tickValue = other.tickValue * 5;
+            other.tickValue = (int)(other.tickValue * 2.5);
+            this.tickValue = (int)(other.tickValue * 2.5);
             this.cost = Mathf.Round((float)(this.baseCost * Mathf.Pow(11.5f, this.count))); // cost increases by 15% each time you purchase it, rounds cost to nearest int
             data.setPointsPerSec(data.getPointPerSec() + (other.count * other.tickValue));
         }

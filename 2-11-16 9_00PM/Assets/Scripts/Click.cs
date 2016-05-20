@@ -24,10 +24,10 @@ public class Click : MonoBehaviour {
     {
         radPoints = data.getRadPoints();
         converter = new PointConverter(radPoints);
-        radPointDisplay.text = "Rad Points: " + converter.convert(); // makes the radPointDisplay show the new amount of points
+        radPointDisplay.text = "Rad Points: " + converter; // makes the radPointDisplay show the new amount of points
         radPointsPerClick = data.getPointsPerClick();
         converter = new PointConverter(radPointsPerClick);
-        radPerClick.text = converter.convert().Substring(0,converter.convert().Length-2) + " RP/click"; //makes the radPerClick show the new amount of points per click
+        radPerClick.text = converter.ToString().Substring(0,converter.ToString().Length-2) + " RP/click"; //makes the radPerClick show the new amount of points per click
     }
     /// <summary>
     /// runs whenever the button is clicked
