@@ -7,7 +7,7 @@ public class PointConverter
     private string conversion;
     private int commaCount;
 
-    public PointConverter(float pointsToConvert,int maxBeforeWords = 2)
+    public PointConverter(double pointsToConvert,int maxBeforeWords = 2)
     {
         conversion = pointsToConvert.ToString("N1");
         commaCount = commas();
@@ -54,7 +54,7 @@ public class PointConverter
         else if (end.Length >= 12) word = " Trillion";
         else if (end.Length >= 9) word = " Billion";
         else if (end.Length >= 6) word = " Million";
-        conversion = conversion.Substring(0, firstComma) + word;
+        conversion = conversion.Substring(0, firstComma) + "." + end.Substring(0,3) + word;
         return conversion;
     }
 

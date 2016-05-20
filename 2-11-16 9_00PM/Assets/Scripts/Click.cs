@@ -6,7 +6,7 @@ public class Click : MonoBehaviour {
     private DataCollector data;
     public UnityEngine.UI.Text radPerClick; // Text showing points per click
     public UnityEngine.UI.Text radPointDisplay; // Text showing how many points you have
-    public float radPoints; // the amount of points you have
+    public double radPoints; // the amount of points you have
     public int radPointsPerClick = 1; // the amount of points you get per click
     public PointConverter converter;
 
