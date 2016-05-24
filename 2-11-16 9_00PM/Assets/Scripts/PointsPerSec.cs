@@ -7,6 +7,7 @@ public class PointsPerSec : MonoBehaviour {
     //public Click click; // references the Click class
     public ItemManager[] items; // array of items
     private DataCollector data;
+    public PointConverter converter;
 
     /// <summary>
     /// runs at start of game
@@ -25,7 +26,8 @@ public class PointsPerSec : MonoBehaviour {
     /// </summary>
     void Update()
     {
-        pointsPerSecDisplay.text = data.getPointPerSec()+ " RP/sec"; // updates the pointsPerSecDisplay to the current RP/second
+        converter = new PointConverter(data.getPointPerSec());
+        pointsPerSecDisplay.text = converter.ToString().Substring(0, converter.ToString().Length - 2) + " RP/sec"; // updates the pointsPerSecDisplay to the current RP/second
         //data.setPointsPerSec((int)GetPointsPerSec());
     }
 

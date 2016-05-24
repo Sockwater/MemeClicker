@@ -23,7 +23,7 @@ public class Click : MonoBehaviour {
     void Update()
     {
         radPoints = data.getRadPoints();
-        converter = new PointConverter(radPoints);
+        converter = new PointConverter(radPoints,8);
         radPointDisplay.text = "Rad Points: " + converter; // makes the radPointDisplay show the new amount of points
         radPointsPerClick = data.getPointsPerClick();
         converter = new PointConverter(radPointsPerClick);

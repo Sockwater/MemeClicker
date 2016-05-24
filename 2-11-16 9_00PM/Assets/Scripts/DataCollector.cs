@@ -47,7 +47,7 @@ public class DataCollector : MonoBehaviour {
     }
     [SerializeField]
      
-    private int pointsPerClick = 1;
+    private int pointsPerClick = 0;
 
     public int getPointsPerClick()
     {

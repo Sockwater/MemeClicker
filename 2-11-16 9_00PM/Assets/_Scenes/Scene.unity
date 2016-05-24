@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 787168543}
   cost: 25000
-  tickValue: 200
+  tickValue: 250
   count: 0
   itemName: Sixth Item
 --- !u!224 &551858942
@@ -1906,7 +1906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 1148594908}
   cost: 100000
-  tickValue: 25
+  tickValue: 750
   count: 0
   itemName: Eighth Item
 --- !u!114 &563501311
@@ -2805,7 +2805,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 629387010}
   cost: 10000
-  tickValue: 100
+  tickValue: 125
   count: 0
   itemName: Fifth Item
 --- !u!1 &693985471
@@ -4135,7 +4135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 2052383036}
   cost: 10
-  count: 0
+  count: 1
   clickPower: 1
   itemName: Meme Face
 --- !u!1 &865243470
@@ -4346,7 +4346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 1348695899}
   cost: 500
-  tickValue: 30
+  tickValue: 37
   count: 0
   itemName: Third Item
 --- !u!1 &915866855
@@ -7206,8 +7206,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 770587330}
-  cost: 1000
-  tickValue: 50
+  cost: 100000
+  tickValue: 1875
   count: 0
   itemName: Eighth Item
 --- !u!114 &1520099761
@@ -8209,7 +8209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 924972031}
   cost: 200
-  tickValue: 10
+  tickValue: 12
   count: 0
   itemName: Second Item
 --- !u!1 &1595810748
@@ -8261,8 +8261,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 455270388}
-  cost: 25000
-  tickValue: 200
+  cost: 25000000
+  tickValue: 15907
   count: 0
   itemName: Ninth Item
 --- !u!114 &1595810751
@@ -8493,7 +8493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 981239379}
   cost: 50000
-  tickValue: 50
+  tickValue: 500
   count: 0
   itemName: Seventh Item
 --- !u!114 &1641903301
@@ -8954,7 +8954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 748013734}
   cost: 1000
-  tickValue: 50
+  tickValue: 62
   count: 0
   itemName: Fourth Item
 --- !u!1 &1808247701
@@ -9566,8 +9566,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 1464494146}
-  cost: 10000
-  tickValue: 100
+  cost: 50000
+  tickValue: 1250
   count: 0
   itemName: Seventh Item
 --- !u!114 &2036839129
@@ -10023,8 +10023,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemInfo: {fileID: 1529350966}
-  cost: 1000000
-  tickValue: 100
+  cost: 10000000
+  tickValue: 6363
   count: 0
   itemName: Ninth Item
 --- !u!114 &2076444614
