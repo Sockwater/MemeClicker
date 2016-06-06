@@ -422,7 +422,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 3
+  m_Text: memebook
 --- !u!222 &71271447
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1731,7 +1731,7 @@ GameObject:
   - 114: {fileID: 551858943}
   - 114: {fileID: 551858941}
   m_Layer: 5
-  m_Name: Uitem6
+  m_Name: Umemegr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1869,7 +1869,7 @@ GameObject:
   - 114: {fileID: 563501311}
   - 114: {fileID: 563501310}
   m_Layer: 5
-  m_Name: item8
+  m_Name: memeit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2060,7 +2060,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 2
+  m_Text: Memebase
 --- !u!222 &577219188
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2683,7 +2683,7 @@ GameObject:
   - 114: {fileID: 672771473}
   - 114: {fileID: 672771476}
   m_Layer: 5
-  m_Name: Uitem5
+  m_Name: Umemeblr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3291,8 +3291,8 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3, y: 0.000062943}
-  m_SizeDelta: {x: 788, y: 474.44}
+  m_AnchoredPosition: {x: -3, y: 13.182}
+  m_SizeDelta: {x: 788, y: 333.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742275657
 MonoBehaviour:
@@ -4224,7 +4224,7 @@ GameObject:
   - 114: {fileID: 905174289}
   - 114: {fileID: 905174292}
   m_Layer: 5
-  m_Name: Uitem3
+  m_Name: Umemebook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4415,7 +4415,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 4
+  m_Text: Grow Your Meme
 --- !u!222 &915866858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4634,9 +4634,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Item 7
-
-'
+  m_Text: Memetube
 --- !u!222 &981239380
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4729,7 +4727,7 @@ GameObject:
   - 114: {fileID: 1044241917}
   - 114: {fileID: 1044241920}
   m_Layer: 5
-  m_Name: Uitem1
+  m_Name: U9meme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5297,7 +5295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 8
+  m_Text: Memeit
 --- !u!222 &1148594909
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5317,7 +5315,7 @@ GameObject:
   - 114: {fileID: 1172578028}
   - 114: {fileID: 1172578027}
   m_Layer: 5
-  m_Name: item5
+  m_Name: memeblr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5528,7 +5526,7 @@ GameObject:
   - 114: {fileID: 1233241538}
   - 114: {fileID: 1233241537}
   m_Layer: 5
-  m_Name: item3
+  m_Name: memebook
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6084,7 +6082,7 @@ GameObject:
   - 114: {fileID: 1379570529}
   - 114: {fileID: 1379570532}
   m_Layer: 5
-  m_Name: item2
+  m_Name: memebase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7150,7 +7148,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 5
+  m_Text: Memeblr
 --- !u!222 &1511779005
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7170,7 +7168,7 @@ GameObject:
   - 114: {fileID: 1520099761}
   - 114: {fileID: 1520099760}
   m_Layer: 5
-  m_Name: Uitem8
+  m_Name: Umemeit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7434,7 +7432,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 9
+  m_Text: Memechan
 --- !u!222 &1529350967
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7738,7 +7736,7 @@ GameObject:
   - 114: {fileID: 1551216635}
   - 114: {fileID: 1551216638}
   m_Layer: 5
-  m_Name: item1
+  m_Name: 9meme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8087,7 +8085,7 @@ GameObject:
   - 114: {fileID: 1587481799}
   - 114: {fileID: 1587481802}
   m_Layer: 5
-  m_Name: Uitem2
+  m_Name: Umemebase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8225,7 +8223,7 @@ GameObject:
   - 114: {fileID: 1595810751}
   - 114: {fileID: 1595810750}
   m_Layer: 5
-  m_Name: Uitem9
+  m_Name: Umemechan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8456,7 +8454,7 @@ GameObject:
   - 114: {fileID: 1641903301}
   - 114: {fileID: 1641903300}
   m_Layer: 5
-  m_Name: item7
+  m_Name: memetube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8832,7 +8830,7 @@ GameObject:
   - 114: {fileID: 1755328228}
   - 114: {fileID: 1755328231}
   m_Layer: 5
-  m_Name: Uitem4
+  m_Name: Ugrowyourmeme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9023,7 +9021,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 1
+  m_Text: 9meme
 --- !u!222 &1808247704
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9254,7 +9252,7 @@ GameObject:
   - 114: {fileID: 1985427177}
   - 114: {fileID: 1985427176}
   m_Layer: 5
-  m_Name: item4
+  m_Name: growyourmeme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9392,7 +9390,7 @@ GameObject:
   - 114: {fileID: 2020019434}
   - 114: {fileID: 2020019433}
   m_Layer: 5
-  m_Name: item6
+  m_Name: memegr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9530,7 +9528,7 @@ GameObject:
   - 114: {fileID: 2036839129}
   - 114: {fileID: 2036839128}
   m_Layer: 5
-  m_Name: Uitem7
+  m_Name: Umemetube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9967,7 +9965,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Item 6
+  m_Text: memegr
 --- !u!222 &2073100851
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9987,7 +9985,7 @@ GameObject:
   - 114: {fileID: 2076444614}
   - 114: {fileID: 2076444613}
   m_Layer: 5
-  m_Name: item9
+  m_Name: memechan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
