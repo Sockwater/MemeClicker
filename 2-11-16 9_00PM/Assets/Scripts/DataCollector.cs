@@ -3,6 +3,16 @@ using System.Collections;
 
 public class DataCollector : MonoBehaviour {
     [SerializeField]
+    private double allTimePoints = 0;
+    public double getAllTimePoints()
+    {
+        return this.allTimePoints;
+    }
+    public void setAllTimePoints(double add)
+    {
+        this.allTimePoints += add;
+    }
+    [SerializeField]
     private double radPoints = 0;
     public double getRadPoints()
     {
@@ -57,18 +67,27 @@ public class DataCollector : MonoBehaviour {
     {
         this.pointsPerClick = points;
     }
+    [SerializeField]
+    long timesClicked = 0;
+    public long gettimesClicked()
+    {
+        return this.timesClicked;
+    }
+    public void setTimesClicked(long click)
+    {
+        this.timesClicked += click;
+    }
 
 
 
-   
 
 
 
 
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 	
 	}
 	

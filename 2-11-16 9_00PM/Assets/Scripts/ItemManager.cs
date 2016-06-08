@@ -11,6 +11,7 @@ public class ItemManager : MonoBehaviour {
     public string itemName; // name of item
     private double baseCost; // base cost of item
     public PointConverter converter;
+    public bool changeColor;
     /// <summary>
     /// runs at start of game
     /// </summary>
@@ -18,6 +19,10 @@ public class ItemManager : MonoBehaviour {
     {
         data = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<DataCollector>();
         baseCost = cost; // sets the baseCost to the cost we defined in Unity
+        if (changeColor)
+        {
+            itemInfo.color = Random.ColorHSV();
+        }
         
     }
 

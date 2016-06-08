@@ -9,7 +9,7 @@ public class Click : MonoBehaviour {
     public double radPoints; // the amount of points you have
     public int radPointsPerClick = 1; // the amount of points you get per click
     public PointConverter converter;
-
+    public UnityEngine.Sprite sprite;
     void Start()
     {
         data = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<DataCollector>();
@@ -37,5 +37,8 @@ public class Click : MonoBehaviour {
         radPoints += radPointsPerClick; //adds the amounbt of points/click to your total points
         data.setPointsPerClick(radPointsPerClick);
         data.setRadPoints(radPoints);
+        data.setAllTimePoints(radPointsPerClick);
+        data.setTimesClicked(1);
+
     }
 }

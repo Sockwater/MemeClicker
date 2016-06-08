@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class UpgradeManager : MonoBehaviour {
 
     private DataCollector data;
-    public UnityEngine.UI.Text itemInfo; //A bit of text showing information about the item (name,cost,power)
+    public Text itemInfo; //A bit of text showing information about the item (name,cost,power)
     public double cost; // how many points an item costs
     public int count = 0; // how many of this item you have
     public int clickPower; // how many points/click this item adds
     public string itemName; //name of the item
     private double baseCost; //base cost of the item
     public PointConverter converter;
+    public bool changeColor;
+    
     /// <summary>
     /// runs at the beginning of the game
     /// </summary>
@@ -18,6 +21,10 @@ public class UpgradeManager : MonoBehaviour {
     {
         baseCost = cost;//sets the base cost to whatever we assigned it to in unity
         data = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<DataCollector>();
+        if (changeColor)
+        {
+            itemInfo.color = RandomColor();
+        }
     }
 
     /// <summary>
@@ -37,9 +44,9 @@ public class UpgradeManager : MonoBehaviour {
     /// <summary>
     /// Method for purchasing an upgrade
     /// </summary>
-    public void PurchasedUpgrade()
+    public void PurchasedUpgrade(Click MainClick)
     {
-        if(data.getRadPoints() >= cost) // checks to see if you have enough points to buy it
+        if (data.getRadPoints() >= cost) // checks to see if you have enough points to buy it
         {
             data.setRadPoints(data.getRadPoints() - cost); //spends your points
             count++; //gives you 1 of this item 
@@ -65,5 +72,9 @@ public class UpgradeManager : MonoBehaviour {
             ClickPower(other.count,other.clickPower);
         }
 
+    }
+    private Color RandomColor()
+    {
+        return Random.ColorHSV();
     }
 }

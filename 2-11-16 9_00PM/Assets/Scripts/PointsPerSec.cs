@@ -53,7 +53,10 @@ public class PointsPerSec : MonoBehaviour {
     public void AutoPointsPerSec()
     {
         // click.radPoints += GetPointsPerSec() / 10;
-            data.setRadPoints(data.getRadPoints() + (data.getPointPerSec()/17.6));
+        double points = (data.getPointPerSec() / 17.6);
+        data.setRadPoints(data.getRadPoints() + points);
+        data.setAllTimePoints(points);
+
     }
 
     /// <summary>
